@@ -13,7 +13,7 @@
 
 <Navbar class="bg-gray-100 dark:bg-gray-800">
   <NavBrand href="/" class="h-[100%] p-0">
-    <img src="/FLL%20SportSenseLive%20Logo-cropped.svg" alt="Sports Sense Live Logo" class="h-[100%] w-[100%]" />
+    <img src="/Logo.svg" alt="Sports Sense Live Logo" class="h-[100%] w-[100%]" />
   </NavBrand>
   <NavHamburger  />
   <NavUl >
