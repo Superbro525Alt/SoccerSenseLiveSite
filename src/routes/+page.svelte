@@ -11,28 +11,13 @@
 
 </script>
 
-<Navbar class="bg-gray-100 dark:bg-gray-800">
-  <NavBrand href="/">
-    <img src="/images/logo.svg" class="me-3 h-6 sm:h-9" alt="Soccer Sense Live Logo" />
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Soccer Sense Live</span>
-  </NavBrand>
-  <NavHamburger  />
-  <NavUl >
-    <NavLi href="/">Home</NavLi>
-    <NavLi href="/about">About</NavLi>
-    <NavLi href="/pricing">Pricing</NavLi>
-    <NavLi href="/roadmap">Roadmap</NavLi>
-    <NavLi href="/download">Download</NavLi>
-    <NavLi href="/feedback">User Feedback</NavLi>
-  </NavUl>
-</Navbar>
 
 <div class="flex flex-row space-x-10 mt-10 items-center w-[90%] mx-auto">
   <Card class="w-full max-w-2xl mx-auto h-[400px] overflow-scroll">
     <Heading class="text-2xl font-semibold">Soccer Sense Live</Heading>
 
     <p class="mt-4 text-gray-600 dark:text-gray-400 scaling">
-      Soccer Sense Live is a way of watching soccer games with your friends and family. It's a way of connecting with your loved ones and sharing the experience of watching a soccer game together.
+      Sports Sense Live is a way of watching soccer games with your friends and family. It's a way of connecting with your loved ones and sharing the experience of watching a soccer game together.
       <br/>
       <br/>
       It has many features, allowing it to be used for mid game and post game analysis, it can do automatic scoring and referring of games and can make every sports game more fun, engaging and fair.
@@ -111,11 +96,11 @@
         { label: '1 star', rating: 1 }
       ]}>
       <span slot="rating">
-        <Rating total={5} rating={3.72} id="example-8">
-          <p slot="text" class="text-sm font-medium text-gray-500 dark:text-gray-400 ms-2">3.72 out of 5</p>
+        <Rating total={5} rating={4.2} id="example-8">
+          <p slot="text" class="text-sm font-medium text-gray-500 dark:text-gray-400 ms-2">4.2 out of 5</p>
         </Rating>
       </span>
-      <p slot="globalText" class="mt-2 text-sm font-medium text-gray-500 dark:text-gray-400">300 global ratings</p>
+      <p slot="globalText" class="mt-2 text-sm font-medium text-gray-500 dark:text-gray-400">27 global ratings</p>
     </AdvancedRating>
   </Card>
 </div>
