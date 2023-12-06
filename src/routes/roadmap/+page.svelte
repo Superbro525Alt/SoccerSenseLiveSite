@@ -1,9 +1,38 @@
 <script lang="ts">
-  import {Timeline, TimelineItem, Button, Card} from 'flowbite-svelte';
+    import {Timeline, TimelineItem, Button, Card, Heading, Progressbar} from 'flowbite-svelte';
   import { ArrowRightOutline } from 'flowbite-svelte-icons';
+  import { sineOut } from 'svelte/easing';
+
+    let progress = '90'
+
 </script>
 
 <Card class="m-4 p-4 min-w-[95%] m-auto mt-5 overflow-scroll mb-5">
+    <br/>
+
+    <Heading tag="h2">Roadmap</Heading>
+
+    <br/>
+
+    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        This is the roadmap for the project. It shows what we are going to do and when we are going to do it.
+    </p>
+
+    <Progressbar
+  {progress}
+  animate
+  precision={0}
+  labelOutside="Current Completion"
+  labelInside
+  tweenDuration={1500}
+  easing={sineOut}
+  size="h-6"
+  labelInsideClass="bg-blue-600 text-blue-100 text-base font-medium text-center p-1 leading-none rounded-full"
+/>
+
+
+    <br/>
+
   <Timeline>
     <TimelineItem title="Planning" date="August 2023">
       <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">

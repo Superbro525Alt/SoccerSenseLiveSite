@@ -3,6 +3,7 @@
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DeviceMockup } from 'flowbite-svelte';
       import { Carousel, Thumbnails } from 'flowbite-svelte';
         import { DarkMode } from 'flowbite-svelte';
+  import { Footer, FooterBrand, FooterCopyright, FooterIcon, FooterLink, FooterLinkGroup } from 'flowbite-svelte';
 
 </script>
 
@@ -30,6 +31,7 @@
 <div class="h-[80%]">
     <slot />
 </div>
+
 
 <style>
   /* make all fonts scaled to screen resolution */
