@@ -77,3 +77,12 @@
     </TimelineItem>
   </Timeline>
 </Card>
+
+<div class="flex flex-row justify-center space-x-5">
+    <Card class="min-w-[47%] mt-5 overflow-scroll mb-5">
+        <img src="/Kanban.png" alt="Kanban" class="w-full h-full"/>
+    </Card>
+    <Card class="min-w-[47%] mt-5 overflow-scroll mb-5">
+        <img src="/Kanban.png" alt="Kanban" class="w-full h-full"/>
+    </Card>
+</div>
