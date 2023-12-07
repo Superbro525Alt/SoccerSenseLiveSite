@@ -14,7 +14,7 @@
 
 <div class="flex flex-row space-x-10 mt-10 items-center w-[90%] mx-auto">
   <Card class="w-full max-w-2xl mx-auto h-[400px] overflow-scroll">
-    <Heading class="text-2xl font-semibold">Soccer Sense Live</Heading>
+    <Heading class="text-2xl font-semibold">Sports Sense Live</Heading>
 
     <p class="mt-4 text-gray-600 dark:text-gray-400 scaling">
       Sports Sense Live is a way of watching soccer games with your friends and family. It's a way of connecting with your loved ones and sharing the experience of watching a soccer game together.
