@@ -2,8 +2,23 @@
     import {Timeline, TimelineItem, Button, Card, Heading, Progressbar} from 'flowbite-svelte';
   import { ArrowRightOutline } from 'flowbite-svelte-icons';
   import { sineOut } from 'svelte/easing';
+    import {onMount} from "svelte";
 
     let progress = '90'
+
+
+
+    onMount(() => {
+        const root = document.documentElement;
+
+        document.addEventListener('mousemove', evt => {
+            // let x = evt.clientX / innerWidth;
+            // let y = evt.clientY / innerHeight;
+            //
+            // root.style.setProperty('--mouse-x', x);
+            // root.style.setProperty('--mouse-y', y);
+        });
+    });
 
 </script>
 
@@ -83,6 +98,7 @@
         <img src="/Kanban.png" alt="Kanban" class="w-full h-full"/>
     </Card>
     <Card class="min-w-[47%] mt-5 overflow-scroll mb-5">
-        <img src="/Kanban.png" alt="Kanban" class="w-full h-full"/>
+        <img src="/img.png" alt="Gantt" class="w-full h-full"/>
     </Card>
 </div>
+
